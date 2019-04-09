@@ -25,8 +25,8 @@ public class SinglyLinkedList {
     }
 
     public void insertNodeAtPosition(int pos, Node node){
-        Node secondLastNode = goToPosition.apply(pos-1);
-        addNodeAfter(secondLastNode,node);
+        Node secondLastPosNode = goToPosition.apply(pos-1);
+        addNodeAfter(secondLastPosNode,node);
     }
 
     //update head
