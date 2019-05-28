@@ -24,9 +24,9 @@ public class SinglyLinkedListInsertionTest {
      */
     @Test
     public void insertNodeIntoAnEmptyList(){
-        linkedList.insertAtHead(5);
-        assertThat(linkedList.getHead()).isNotNull();
-        assertThat(linkedList.getHead().getData()).isEqualTo(5);
+        linkedList.insert(5);
+        assertThat(linkedList.head()).isNotNull();
+        assertThat(linkedList.head().data()).isEqualTo(5);
     }
 
     /**
@@ -34,9 +34,9 @@ public class SinglyLinkedListInsertionTest {
      */
     @Test
     public void insertNode(){
-        linkedList.insertAtHead(5).insertAtHead(3);
-        assertThat(linkedList.getHead().getData()).isEqualTo(3);
-        assertThat(linkedList.getHead().next().getData()).isEqualTo(5);
+        linkedList.insert(5).insert(3);
+        assertThat(linkedList.head().data()).isEqualTo(3);
+        assertThat(linkedList.head().next().data()).isEqualTo(5);
     }
 
     /**
@@ -46,9 +46,9 @@ public class SinglyLinkedListInsertionTest {
     @Test
     public void insertNodeAtTailOfEmptyList(){
         linkedList.insertAtTail(4);
-        assertThat(linkedList.getHead()).isNotNull();
-        assertThat(linkedList.getTail()).isNotNull();
-        assertThat(linkedList.getHead()).isEqualTo(linkedList.getTail());
+        assertThat(linkedList.head()).isNotNull();
+        assertThat(linkedList.tail()).isNotNull();
+        assertThat(linkedList.head()).isEqualTo(linkedList.tail());
     }
 
     /**
@@ -56,10 +56,10 @@ public class SinglyLinkedListInsertionTest {
      */
     @Test
     public void insertNodeAtTailOfNonEmptyList(){
-        linkedList.insertAtHead(2).insertAtHead(3).insertAtHead(5);
+        linkedList.insert(2).insert(3).insert(5);
         linkedList. insertAtTail(7);
-        assertThat(linkedList.getTail()).isNotNull();
-        assertThat(linkedList.getTail().getData()).isEqualTo(7);
+        assertThat(linkedList.tail()).isNotNull();
+        assertThat(linkedList.tail().data()).isEqualTo(7);
     }
 
     /**
@@ -68,7 +68,7 @@ public class SinglyLinkedListInsertionTest {
      */
     @Test
     public void insertAtInvalidPosition(){
-        linkedList.insertAtHead(2).insertAtHead(3).insertAtHead(7);
+        linkedList.insert(2).insert(3).insert(7);
         exception.expect(IllegalArgumentException.class);
         linkedList.insertAtPosition(5,1);
     }
@@ -79,8 +79,8 @@ public class SinglyLinkedListInsertionTest {
      */
     @Test
     public void insertAtPosition(){
-        linkedList.insertAtHead(2).insertAtHead(3).insertAtHead(7);
+        linkedList.insert(2).insert(3).insert(7);
         linkedList.insertAtPosition(4,9);
-        assertThat(linkedList.getNodeAtPosition(4).getData()).isEqualTo(9);
+        //assertThat(linkedList.nodeAtPosition(4).data()).isEqualTo(9);
     }
 }

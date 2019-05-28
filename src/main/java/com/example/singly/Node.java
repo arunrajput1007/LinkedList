@@ -14,7 +14,7 @@ public class Node {
         this.data = data;
     }
 
-    public int getData() {
+    public int data() {
         return data;
     }
 
@@ -22,7 +22,7 @@ public class Node {
         return next;
     }
 
-    public void setNext(Node next) {
+    public void changeNext(Node next) {
         this.next = next;
     }
 
@@ -31,7 +31,7 @@ public class Node {
         if(!(obj instanceof Node)){
             return false;
         }
-        return this.getData() == ((Node) obj).getData();
+        return this.data() == ((Node) obj).data();
     }
 
     @Override

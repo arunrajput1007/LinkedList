@@ -1,42 +1,33 @@
 package com.example.singly;
 
+import static com.example.singly.ListFunctionalUtil.*;
+
 public class SinglyLinkedList {
 
     private Node head;
 
-    public Node getHead() {
+    public Node head() {
         return head;
     }
 
-    public Node getTail(){
-        return getIterator().iterateToLast();
+    public Node tail(){
+        return tailRecur(head);
     }
 
-    public int getLength(){
-        NodeIterator iterator = getIterator();
-        int sizeCount = 0;
-
-        while (iterator.hasNext()){
-            iterator.next();
-            sizeCount++;
-        }
-        return sizeCount;
+    public int size(){
+        return sizeRecur(head);
     }
 
-    public Node getNodeAtPosition(Integer position){
-        return getIterator().iterateTo(position);
+    public Node nodeAtPosition(Integer position){
+        return nodeAtPositionRecur(1,position,head());
     }
 
-    private NodeIterator getIterator(){
-        return NodeIterator.createIterator(this);
-    }
-
-    public SinglyLinkedList insertAtHead(Integer data) {
+    public SinglyLinkedList insert(Integer data) {
         Node node = new Node(data);
         if(head == null){
             head = node;
         }else{
-            node.setNext(head);
+            node.changeNext(head);
             head = node;
         }
         return this;
@@ -44,26 +35,20 @@ public class SinglyLinkedList {
 
     public SinglyLinkedList insertAtTail(Integer data) {
         Node node = new Node(data);
-        if(getTail()==null){
+        if(tail()==null){
             head = node;
         }else{
-            getTail().setNext(node);
+            tail().changeNext(node);
         }
         return this;
     }
 
     public SinglyLinkedList insertAtPosition(Integer position,Integer data) {
         Node node = new Node(data);
-        Node previousNode = getNodeAtPosition(position-1);
+        Node previousNode = nodeAtPosition(position-1);
         Node nextNode = previousNode.next();
-        previousNode.setNext(node);
-        node.setNext(nextNode);
+        previousNode.changeNext(node);
+        node.changeNext(nextNode);
         return this;
     }
-
-    /*public SinglyLinkedList updateHead(){}
-
-    public SinglyLinkedList updateHead(){}
-
-    public SinglyLinkedList updateHead(){}*/
 }

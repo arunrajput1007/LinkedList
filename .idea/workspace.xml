@@ -2,23 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb673836-4e83-4da7-a8c6-c8c634ae1def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/singly/NodeIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/singly/NodeIteratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListInsertionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/singly/ListFunctionalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListMiscTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/1029f4a0ccf1592cf87d694eb848cd0aa30d3dda" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/1029f4a0ccf1592cf87d694eb848cd0aa30d3dda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/singly/Client.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/singly/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/singly/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/singly/NodeIterator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/singly/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/singly/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/singly/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/singly/NodeIteratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListInsertionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListInsertionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/singly/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/singly/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/singly/NodeIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/singly/NodeIterator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/singly/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/singly/SinglyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/singly/NodeIteratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/singly/NodeIteratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/singly/SinglyLinkedListInsertionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/singly/SinglyLinkedListInsertionTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +35,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/SinglyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="442">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/SinglyLinkedList.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListMiscTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="561">
+              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
               <folding>
-                <element signature="method#insertAtTail#0;class#SinglyLinkedList#0" />
-                <element signature="method#insertAtPosition#0;class#SinglyLinkedList#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,35 +58,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListInsertionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="61" column="64" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
+            <state relative-caret-position="213">
+              <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/NodeIterator.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="method#equals#0;class#Node#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/Node.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/ListFunctionalUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="221">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#equals#0;class#Node#0" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,10 +126,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/singly/IteratorNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/singly/NodeIteratorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListInsertionTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/singly/Node.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/singly/LinkedListUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/singly/LinkedListUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/singly/NodeIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/singly/Node.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListMiscTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListInsertionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/singly/ListFunctionalUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/singly/SinglyLinkedList.java" />
       </list>
     </option>
@@ -165,6 +174,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,15 +233,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,38 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListInsertionTest.insertAtInvalidPosition">
-    <configuration name="NodeIteratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linkedList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.singly.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.singly" />
-      <option name="MAIN_CLASS_NAME" value="com.example.singly.NodeIteratorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NodeIteratorTest.mustGetNodeOfNonEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linkedList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.singly.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.singly" />
-      <option name="MAIN_CLASS_NAME" value="com.example.singly.NodeIteratorTest" />
-      <option name="METHOD_NAME" value="mustGetNodeOfNonEmptyList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SinglyLinkedListMiscTest">
     <configuration name="SinglyLinkedListInsertionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedList" />
       <extension name="coverage">
@@ -292,7 +272,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListInsertionTest.insertAtInvalidPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListMiscTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedList" />
       <extension name="coverage">
         <pattern>
@@ -301,14 +281,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.singly" />
-      <option name="MAIN_CLASS_NAME" value="com.example.singly.SinglyLinkedListInsertionTest" />
-      <option name="METHOD_NAME" value="insertAtInvalidPosition" />
+      <option name="MAIN_CLASS_NAME" value="com.example.singly.SinglyLinkedListMiscTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListMiscTest.getNodeAtPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.singly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.singly" />
+      <option name="MAIN_CLASS_NAME" value="com.example.singly.SinglyLinkedListMiscTest" />
+      <option name="METHOD_NAME" value="getNodeAtPosition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListInsertionTest.insertAtPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListMiscTest.goToTail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedList" />
       <extension name="coverage">
         <pattern>
@@ -317,8 +312,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.singly" />
-      <option name="MAIN_CLASS_NAME" value="com.example.singly.SinglyLinkedListInsertionTest" />
-      <option name="METHOD_NAME" value="insertAtPosition" />
+      <option name="MAIN_CLASS_NAME" value="com.example.singly.SinglyLinkedListMiscTest" />
+      <option name="METHOD_NAME" value="goToTail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListMiscTest.goToTailOfEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.singly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.singly" />
+      <option name="MAIN_CLASS_NAME" value="com.example.singly.SinglyLinkedListMiscTest" />
+      <option name="METHOD_NAME" value="goToTailOfEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -326,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SinglyLinkedListInsertionTest.insertAtInvalidPosition" />
-        <item itemvalue="JUnit.SinglyLinkedListInsertionTest.insertAtPosition" />
+        <item itemvalue="JUnit.SinglyLinkedListMiscTest" />
         <item itemvalue="JUnit.SinglyLinkedListInsertionTest" />
-        <item itemvalue="JUnit.NodeIteratorTest" />
-        <item itemvalue="JUnit.NodeIteratorTest.mustGetNodeOfNonEmptyList" />
+        <item itemvalue="JUnit.SinglyLinkedListMiscTest.getNodeAtPosition" />
+        <item itemvalue="JUnit.SinglyLinkedListMiscTest.goToTailOfEmpty" />
+        <item itemvalue="JUnit.SinglyLinkedListMiscTest.goToTail" />
       </list>
     </recent_temporary>
   </component>
@@ -348,35 +359,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SinglyLinkedListInsertionTest - 2019.05.26 at 21h 58m 41s.xml">
+    <history-entry file="SinglyLinkedListMiscTest_goToTail - 2019.05.28 at 22h 16m 34s.xml">
+      <configuration name="SinglyLinkedListMiscTest.goToTail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SinglyLinkedListMiscTest_goToTailOfEmpty - 2019.05.28 at 22h 21m 22s.xml">
+      <configuration name="SinglyLinkedListMiscTest.goToTailOfEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SinglyLinkedListMiscTest_goToTailOfEmpty - 2019.05.28 at 22h 22m 02s.xml">
+      <configuration name="SinglyLinkedListMiscTest.goToTailOfEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SinglyLinkedListMiscTest_getNodeAtPosition - 2019.05.28 at 22h 30m 17s.xml">
+      <configuration name="SinglyLinkedListMiscTest.getNodeAtPosition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SinglyLinkedListMiscTest_getNodeAtPosition - 2019.05.28 at 22h 38m 28s.xml">
+      <configuration name="SinglyLinkedListMiscTest.getNodeAtPosition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SinglyLinkedListMiscTest_getNodeAtPosition - 2019.05.28 at 22h 39m 20s.xml">
+      <configuration name="SinglyLinkedListMiscTest.getNodeAtPosition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SinglyLinkedListMiscTest_getNodeAtPosition - 2019.05.28 at 22h 40m 32s.xml">
+      <configuration name="SinglyLinkedListMiscTest.getNodeAtPosition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SinglyLinkedListMiscTest_getNodeAtPosition - 2019.05.28 at 22h 40m 40s.xml">
+      <configuration name="SinglyLinkedListMiscTest.getNodeAtPosition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SinglyLinkedListInsertionTest - 2019.05.28 at 23h 09m 52s.xml">
       <configuration name="SinglyLinkedListInsertionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyLinkedListInsertionTest_insertAtPosition - 2019.05.26 at 22h 17m 00s.xml">
-      <configuration name="SinglyLinkedListInsertionTest.insertAtPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SinglyLinkedListInsertionTest_insertAtPosition - 2019.05.26 at 22h 17m 15s.xml">
-      <configuration name="SinglyLinkedListInsertionTest.insertAtPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SinglyLinkedListInsertionTest_insertAtPosition - 2019.05.26 at 22h 18m 09s.xml">
-      <configuration name="SinglyLinkedListInsertionTest.insertAtPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SinglyLinkedListInsertionTest_insertAtInvalidPosition - 2019.05.26 at 22h 18m 54s.xml">
-      <configuration name="SinglyLinkedListInsertionTest.insertAtInvalidPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SinglyLinkedListInsertionTest_insertAtInvalidPosition - 2019.05.26 at 22h 19m 19s.xml">
-      <configuration name="SinglyLinkedListInsertionTest.insertAtInvalidPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SinglyLinkedListInsertionTest_insertAtInvalidPosition - 2019.05.26 at 22h 20m 16s.xml">
-      <configuration name="SinglyLinkedListInsertionTest.insertAtInvalidPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SinglyLinkedListInsertionTest_insertAtInvalidPosition - 2019.05.26 at 22h 22m 08s.xml">
-      <configuration name="SinglyLinkedListInsertionTest.insertAtInvalidPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SinglyLinkedListInsertionTest_insertAtInvalidPosition - 2019.05.26 at 22h 22m 29s.xml">
-      <configuration name="SinglyLinkedListInsertionTest.insertAtInvalidPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SinglyLinkedListInsertionTest_insertAtInvalidPosition - 2019.05.26 at 22h 24m 51s.xml">
-      <configuration name="SinglyLinkedListInsertionTest.insertAtInvalidPosition" configurationId="JUnit" />
+    <history-entry file="SinglyLinkedListMiscTest - 2019.05.28 at 23h 10m 03s.xml">
+      <configuration name="SinglyLinkedListMiscTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -388,12 +399,12 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2952" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.3" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.29752067" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="2" weight="0.27107438" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.3289256" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.3289256" />
       <window_info anchor="bottom" id="SonarQube" order="5" weight="0.3289256" />
       <window_info anchor="bottom" id="DB Execution Console" order="6" />
@@ -414,39 +425,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="right" id="Codota" order="8" weight="0.32960895" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="DB Browser" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.2904" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.29752067" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" order="2" weight="0.27107438" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3289256" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.3289256" />
-      <window_info anchor="bottom" id="SonarQube" order="5" weight="0.3289256" />
-      <window_info anchor="bottom" id="DB Execution Console" order="6" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.36363637" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.3553719" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3296" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Codota" order="8" weight="0.32960895" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -458,26 +436,57 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/singly/NodeIteratorTest.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListInsertionTest.java</url>
           <line>70</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListMiscTest.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>linkedList.nodeAtPosition(0, 1, linkedList.head())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>nodeIterator.next()</expression-string>
         <language-id>JAVA</language-id>
@@ -515,16 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/singly/NodeIteratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -532,44 +531,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListInsertionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/LinkedListUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/singly/LinkedListUtilTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListMiscTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="61" column="64" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
+        <state relative-caret-position="561">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/ListFunctionalUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/NodeIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="111">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding>
             <element signature="e#406#407#0" expanded="true" />
             <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/singly/NodeIteratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="192">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#equals#0;class#Node#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/singly/SinglyLinkedListInsertionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="442">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/singly/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
-            <element signature="method#insertAtTail#0;class#SinglyLinkedList#0" />
-            <element signature="method#insertAtPosition#0;class#SinglyLinkedList#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="method#equals#0;class#Node#0" />
           </folding>
         </state>
       </provider>
