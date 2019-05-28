@@ -6,19 +6,32 @@ import java.util.Objects;
 
 @ToString
 public class Node {
-    int data;
-    Node next;
+
+    private int data;
+    private Node next;
 
     public Node(int data) {
         this.data = data;
     }
 
+    public int getData() {
+        return data;
+    }
+
+    public Node next() {
+        return next;
+    }
+
+    public void setNext(Node next) {
+        this.next = next;
+    }
+
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Node)) return false;
-        Node node = (Node) o;
-        return data == node.data;
+    public boolean equals(Object obj) {
+        if(!(obj instanceof Node)){
+            return false;
+        }
+        return this.getData() == ((Node) obj).getData();
     }
 
     @Override

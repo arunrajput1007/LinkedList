@@ -1,85 +1,69 @@
 package com.example.singly;
 
-import java.util.function.IntFunction;
-import java.util.function.Supplier;
-
 public class SinglyLinkedList {
 
     private Node head;
 
-    public SinglyLinkedList(Node head) {
-        this.head = head;
+    public Node getHead() {
+        return head;
     }
 
-    public void insertNodeAtTail(Node node){
-        if(isHeadNotEmpty()){
-            Node last = tail.get();
-            addNodeAfter(last,node);
-        } else{
-            promoteNodeAsHead(node);
+    public Node getTail(){
+        return getIterator().iterateToLast();
+    }
+
+    public int getLength(){
+        NodeIterator iterator = getIterator();
+        int sizeCount = 0;
+
+        while (iterator.hasNext()){
+            iterator.next();
+            sizeCount++;
         }
+        return sizeCount;
     }
 
-    public void insertNodeAtHead(Node node){
-        promoteNodeAsHead(node);
+    public Node getNodeAtPosition(Integer position){
+        return getIterator().iterateTo(position);
     }
 
-    public void insertNodeAtPosition(int pos, Node node){
-        Node secondLastPosNode = goToPosition.apply(pos-1);
-        addNodeAfter(secondLastPosNode,node);
+    private NodeIterator getIterator(){
+        return NodeIterator.createIterator(this);
     }
 
-    //update head
-    //update tail
-    //update at position
-    //delete single node at position
-    //delete tail
-    //delete head
-    //delete everything after position
-
-    //get node at position
-    //get everything after position
-
-    //find middle node
-    //find length of linked list
-
-    private boolean isHeadNotEmpty(){
-        return head != null;
-    }
-
-    private void addNodeAfter(Node afterNode, Node newNode){
-        Node temp = afterNode.next;
-        afterNode.next = newNode;
-        newNode.next = temp;
-    }
-
-    private void promoteNodeAsHead(Node node){
-        if(isHeadNotEmpty()) {
-            node.next = head;
+    public SinglyLinkedList insertAtHead(Integer data) {
+        Node node = new Node(data);
+        if(head == null){
+            head = node;
+        }else{
+            node.setNext(head);
+            head = node;
         }
-        head = node;
+        return this;
     }
 
-    public void print(){
-        System.out.println(head);
+    public SinglyLinkedList insertAtTail(Integer data) {
+        Node node = new Node(data);
+        if(getTail()==null){
+            head = node;
+        }else{
+            getTail().setNext(node);
+        }
+        return this;
     }
 
-    private Supplier<Node> tail = () -> {
-        Node node = head;
-        while(node.next!=null){
-            node = node.next;
-        }
-        return node;
-    };
+    public SinglyLinkedList insertAtPosition(Integer position,Integer data) {
+        Node node = new Node(data);
+        Node previousNode = getNodeAtPosition(position-1);
+        Node nextNode = previousNode.next();
+        previousNode.setNext(node);
+        node.setNext(nextNode);
+        return this;
+    }
 
-    //TODO need to refactor
-    private IntFunction<Node> goToPosition = pos -> {
-        int currentPos = 0;
-        Node node = head;
-        while(node.next!=null && currentPos!=pos){
-            node = node.next;
-        }
-        return node;
-    };
+    /*public SinglyLinkedList updateHead(){}
 
+    public SinglyLinkedList updateHead(){}
+
+    public SinglyLinkedList updateHead(){}*/
 }
