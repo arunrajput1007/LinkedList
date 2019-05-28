@@ -14,4 +14,6 @@ class ListFunctionalUtil {
     public static Node tailRecur(Node head){
         return head!= null && head.next()!= null ? tailRecur(head.next()): head;
     }
+
+    private ListFunctionalUtil(){}
 }
