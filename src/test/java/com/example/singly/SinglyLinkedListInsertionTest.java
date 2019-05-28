@@ -7,6 +7,9 @@ import org.junit.rules.ExpectedException;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * @todo Migrate all these test in cucumber and check whethet it looks pretty or not
+ */
 public class SinglyLinkedListInsertionTest {
 
     private SinglyLinkedList linkedList;
