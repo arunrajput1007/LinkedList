@@ -22,7 +22,7 @@ public class Node {
         return next;
     }
 
-    public void changeNext(Node next) {
+    public void updateNext(Node next) {
         this.next = next;
     }
 

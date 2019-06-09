@@ -22,23 +22,22 @@ public class SinglyLinkedList {
         return nodeAtPositionRecur(1,position,head());
     }
 
-    public SinglyLinkedList insert(Integer data) {
+    public SinglyLinkedList insertAtHead(Integer data) {
         Node node = new Node(data);
-        if(head == null){
-            head = node;
-        }else{
-            node.changeNext(head);
-            head = node;
+        if(head != null){
+            node.updateNext(head);
         }
+        head = node;
         return this;
     }
 
     public SinglyLinkedList insertAtTail(Integer data) {
         Node node = new Node(data);
-        if(tail()==null){
+        Node tail = tail();
+        if(tail == null){
             head = node;
         }else{
-            tail().changeNext(node);
+            tail.updateNext(node);
         }
         return this;
     }
@@ -47,8 +46,8 @@ public class SinglyLinkedList {
         Node node = new Node(data);
         Node previousNode = nodeAtPosition(position-1);
         Node nextNode = previousNode.next();
-        previousNode.changeNext(node);
-        node.changeNext(nextNode);
+        previousNode.updateNext(node);
+        node.updateNext(nextNode);
         return this;
     }
 }

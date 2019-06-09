@@ -21,7 +21,7 @@ public class SinglyLinkedListMiscTest {
      */
     @Test
     public void calculateSize(){
-        linkedList.insert(5).insertAtTail(9).insertAtTail(8).insert(7);
+        linkedList.insertAtHead(5).insertAtTail(9).insertAtTail(8).insertAtHead(7);
         assertThat(linkedList.size()).isEqualTo(4);
     }
 
@@ -42,7 +42,7 @@ public class SinglyLinkedListMiscTest {
      */
     @Test
     public void goToTail(){
-        linkedList.insert(2).insert(3).insert(5);
+        linkedList.insertAtHead(2).insertAtHead(3).insertAtHead(5);
         assertThat(linkedList.tail().data()).isEqualTo(2);
     }
 
@@ -63,7 +63,7 @@ public class SinglyLinkedListMiscTest {
      */
     @Test
     public void getNodeAtPosition(){
-        linkedList.insert(4).insert(3).insert(8).insert(9);
+        linkedList.insertAtHead(4).insertAtHead(3).insertAtHead(8).insertAtHead(9);
         assertThat(linkedList.nodeAtPosition(1).data()).isEqualTo(9);
         assertThat(linkedList.nodeAtPosition(2).data()).isEqualTo(8);
         assertThat(linkedList.nodeAtPosition(3).data()).isEqualTo(3);
