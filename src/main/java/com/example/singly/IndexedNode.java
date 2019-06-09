@@ -1,10 +1,10 @@
 package com.example.singly;
 
-public class NodeWithIndex {
+public class IndexedNode {
     private Node node;
     private int index;
 
-    public NodeWithIndex(Node node, int index) {
+    public IndexedNode(Node node, int index) {
         this.node = node;
         this.index = index;
     }

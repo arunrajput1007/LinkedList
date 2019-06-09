@@ -69,4 +69,15 @@ public class SinglyLinkedListMiscTest {
         assertThat(linkedList.nodeAtPosition(3).data()).isEqualTo(3);
         assertThat(linkedList.nodeAtPosition(4).data()).isEqualTo(4);
     }
+
+    /**
+     * Given non empty list
+     * able to search first occurrence of node
+     */
+    @Test
+    public void findFirstTest() {
+        linkedList.insertAtHead(4).insertAtHead(3).insertAtHead(8).insertAtHead(9);
+        Node node = linkedList.findFirst((index, searchNode) -> searchNode.data() == 3).node();
+        assertThat(node).isEqualTo(linkedList.nodeAtPosition(3));
+    }
 }

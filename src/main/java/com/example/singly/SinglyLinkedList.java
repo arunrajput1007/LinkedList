@@ -1,11 +1,17 @@
 package com.example.singly;
 
-import static com.example.singly.ListFunctionalUtil.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.BiPredicate;
+
+@Data
+@NoArgsConstructor
 public class SinglyLinkedList {
 
     private Node head;
-
     private Node tail;
 
     public SinglyLinkedList(Node head) {
@@ -13,7 +19,12 @@ public class SinglyLinkedList {
         this.tail = head;
     }
 
-    public SinglyLinkedList() {
+    public SinglyLinkedList(List<Integer> integerList) {
+        integerList.forEach(this::insertAtTail);
+    }
+
+    public SinglyLinkedList(int[] integerArray) {
+        Arrays.stream(integerArray).forEach(this::insertAtTail);
     }
 
     public Node head() {
@@ -25,20 +36,30 @@ public class SinglyLinkedList {
     }
 
     public Node nodeAtPosition(int position){
-        NodeWithIndex nodeWithIndex = findFirst(head,(index,node) -> index == position-1);
-        if(nodeWithIndex == null){
+        IndexedNode indexedNode = findFirst((index, node) -> index == position - 1);
+        if (indexedNode == null) {
             throw new IllegalArgumentException("invalid position: "+position);
         }else{
-            return nodeWithIndex.node();
+            return indexedNode.node();
         }
     }
 
+    public IndexedNode findFirst(BiPredicate<Integer, Node> biPred) {
+        Node node = head;
+        for (int index = 0; node != null; node = node.next(), index++) {
+            if (biPred.test(index, node)) {
+                return new IndexedNode(node, index);
+            }
+        }
+        return null;
+    }
+
     public int size(){
-        NodeWithIndex nodeWithIndex = findFirst(head,(index,node) -> node.next()==null);
-        if(nodeWithIndex == null){
+        IndexedNode indexedNode = findFirst((index, node) -> node.next() == null);
+        if (indexedNode == null) {
             return 0;
         } else
-            return nodeWithIndex.index()+1;
+            return indexedNode.index() + 1;
     }
 
     public SinglyLinkedList insertAtHead(Integer data) {
